@@ -1,0 +1,8 @@
+<!--pages/test/test01.wxml-->
+<view>
+  <view>bniiajciaji</view>
+  <view wx:for="{{questions}}" wx:key="item" >
+      <view>{{item.id}}</view>
+      <view>{{item.price}}</view>
+  </view>
+</view>

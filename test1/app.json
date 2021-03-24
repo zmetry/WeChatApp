@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/test/test01",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/library/library",
+    "pages/learning/learning"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图书馆管理",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#ffffff",
+     "color":"#979797",
+    "selectedColor":"#ff7200",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/library/library",
+        "text": "图书馆",
+        "iconPath": "images/library.png",
+        "selectedIconPath": "images/library.png"
+      },
+      {
+        "pagePath": "pages/learning/learning",
+        "text": "自习室",
+        "iconPath": "images/learning.png",
+        "selectedIconPath": "images/learning.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人首页",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
